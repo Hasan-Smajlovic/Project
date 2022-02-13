@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'Arima Madurai';
+  src: url('../public/assets/fonts/arima-madurai.bold.ttf') format('truetype');
+}
+
+.wrapper {
+  background-color: #f0f7ff;
+  border-radius: 20px;
+  border: 10px solid white;
+}
+
+.title {
+  font-family: Arima Madurai;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44.2419px;
+  line-height: 72px;
+  margin-left: 25px;
+}

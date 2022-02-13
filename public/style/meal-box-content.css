@@ -1,0 +1,211 @@
+.meal-box h3 {
+  font-family: Arima Madurai;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 23.9784px;
+  line-height: 39px;
+  margin-left: 12px;
+}
+.meal-content {
+  display: flex;
+  align-items: center;
+  padding: 0 92px;
+  overflow-x: auto;
+}
+
+.meal-box {
+  min-width: 620px;
+  min-height: 510px;
+  padding: 12px;
+  border: 8px solid white;
+  border-radius: 20px;
+  position: relative;
+  margin-right: 350px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2.15814px 5.39535px rgba(0, 0, 0, 0.15);
+}
+
+.meal-box p {
+  font-family: Roboto;
+  max-width: 450px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.main-text {
+  font-family: Roboto;
+  max-width: 450px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.2078px;
+  line-height: 16px;
+  margin-left: 12px;
+  color: #404040;
+}
+
+.ingredients-content h4 {
+  font-family: Arima Madurai;
+  font-weight: 800;
+  font-size: 19.4233px;
+  line-height: 32px;
+  color: #969696;
+  margin: 18px 0px 0px 12px;
+}
+
+.ingredients-content {
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.ingredient {
+  display: inline-block;
+  padding: 11.3px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 430px;
+}
+
+.row .ingredient {
+  display: flex;
+  flex-basis: 200px;
+}
+
+.icon-border {
+  border-radius: 7px;
+  border: 2px solid white;
+  padding-left: 0px;
+  max-width: 55px;
+  max-height: 45px;
+  padding: 10px;
+  box-shadow: 0px 1.75848px 4.39621px rgba(0, 0, 0, 0.15);
+}
+
+.ingredient_info {
+  display: inline-block;
+  padding: 0%;
+  margin-left: 5px;
+}
+
+.ingredient-description {
+  max-width: 1000%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8.1242px;
+  line-height: 10px;
+  color: #969696;
+}
+
+.ingredient-title {
+  font-family: Roboto;
+  padding: 2px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10.5509px;
+  line-height: 12px;
+}
+
+.img-plate {
+  width: 426.23px;
+  height: 454.29px;
+  filter: drop-shadow(16.186px 14.0279px 45.3209px rgba(0, 0, 0, 0.1));
+  position: absolute;
+  top: 40px;
+  right: -39%;
+}
+
+.btn {
+  background-color: #408eba;
+  margin-left: 12px;
+  margin-top: 10px;
+  padding: 8px 28px 8px 27px;
+  border-radius: 5px;
+  border-color: #408eba;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 9px;
+}
+
+.nutritional-values-content h4 {
+  font-family: Arima Madurai;
+  font-weight: 800;
+  font-size: 19.4233px;
+  line-height: 32px;
+  color: #969696;
+  margin: 25px 0px 0px 12px;
+}
+
+.row2 {
+  display: flex;
+}
+
+.nutritional-values-box {
+  background-color: #f0f7ff;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 12px;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0px 1.75848px 4.39621px rgba(0, 0, 0, 0.15);
+}
+
+#amount {
+  font-family: Roboto;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.4233px;
+  line-height: 23px;
+
+  color: #000000;
+}
+
+#unit {
+  font-family: Roboto;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.9488px;
+  line-height: 15px;
+
+  color: #000000;
+}
+
+#shorter-unit {
+  font-family: Roboto;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.9488px;
+  line-height: 15px;
+  margin-top: 10px;
+
+  color: #969696;
+}
+
+.btn1 {
+  background-color: #f0f7ff;
+  margin-left: 12px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  padding: 8px 28px 8px 27px;
+  border-radius: 5px;
+  border-color: #408eba;
+  color: #408eba;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 9px;
+}
